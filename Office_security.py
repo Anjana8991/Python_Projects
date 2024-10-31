@@ -48,7 +48,7 @@ class OfficeSecurityApp:
     def view_security_alerts(self):
         
         print("\n---Security Alerts ---")
-        if not self.securtity_alerts:
+        if not self.security_alerts:
             print("No security alerts issued.")
         else:
             for idx,alert in enumerate(self.security_alerts,start=1):
