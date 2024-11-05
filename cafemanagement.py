@@ -1,9 +1,9 @@
 #Define the menu of restaurant
 menu = {
-    'Pizza: $15',
-    'Burger: $25',
-    'Pop: $5',
-    'Salad: $10'
+    'Pizza': 15,
+    'Burger': 25,
+    'Pop': 5,
+    'Salad': 10
     
 }
 #Greet
@@ -22,7 +22,7 @@ else:
     
     
 another_order =input("Doyou want to add another item?(Yes/No) ")
-if another_order =="Yes":
+if another_order.lower() =="yes":
     item_2 = input("Enter the name of second item =")
     if item_2 in menu:
         order_total +=menu[item_2]
