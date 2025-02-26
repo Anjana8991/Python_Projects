@@ -32,4 +32,5 @@ int main(){
     printf(" Time Taken:%2f seconds\n",time_taken);
     printf("Typing speed:%2f WPM\n",wpm);
     return 0;
+    
 }
